@@ -157,10 +157,6 @@ Com as modelagens pertinentes encontramos e comparamos os parâmetros globais pl
       <img src="./imagens_git/cog5.JPG" width="100%" height="100%">
 <p align="center">
  
- ### DEA para Cálculo de Eficiência das Rotas de Venda
- 
- 
- 
  <p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
   
