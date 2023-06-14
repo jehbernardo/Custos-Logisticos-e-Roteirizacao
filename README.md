@@ -101,3 +101,78 @@ Incluímos também, através do DEA, uma análise da eficiência das rotas de ve
  
 <p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
+## Resultado e Produto
+
+Por meio de modelagem de daos, obtivemos o protótipo de dashboard executado no software QuickSight incluindo gráficos pertinentes para analisar as rotas, custos e distribuição.
+
+Com as modelagens pertinentes encontramos e comparamos os parâmetros globais planejados pela empresa, o real com a base fornecida pelo cliente e o sugerido com a base com o centro de distribuição incluido.
+
+ <div id="top"></div>
+<p align="center">
+      <img src="./imagens_git/parametros_comparativo.jpg" width="80%" height="50%">
+<p align="center">
+
+### COG para Modelagem do Centro de Distribuição
+ 
+ 
+ <div id="top"></div>
+<p align="center">
+      <img src="./imagens_git/cog1.JPG" width="100%" height="100%">
+<p align="center">
+ 
+ <div id="top"></div>
+<p align="center">
+      <img src="./imagens_git/cog2.JPG" width="100%" height="100%">
+<p align="center">
+  <div id="top"></div>
+  
+<p align="center">
+      <img src="./imagens_git/cog3.JPG" width="100%" height="100%">
+<p align="center">
+  <div id="top"></div>
+  
+<p align="center">
+      <img src="./imagens_git/cog4.JPG" width="100%" height="100%">
+<p align="center">
+  <div id="top"></div>
+  
+<p align="center">
+      <img src="./imagens_git/cog5.JPG" width="100%" height="100%">
+<p align="center">
+ 
+ ### DEA para Cálculo de Eficiência das Rotas de Venda
+ 
+ 
+ 
+ <p align="right">(<a href="#top">voltar ao topo</a>)</p>
+
+  
+## Tecnologias Utilizadas
+
+<p align="center">   
+ <a href="https://www.atlassian.com/software/jira"><img src="./imagens_git/Jira Software.svg" width="20%" height="20%"/>
+ <a href="https://www.mongodb.com/"><img src="./imagens_git/MongoDB.svg" width="20%" height="20%"/></a>
+</p>
+ 
+<p align="center">    
+ <a href="https://www.python.org/"><img src="./imagens_git/Python.svg" width="8%" height="8%"/></a>
+ <a href="https://jupyter.org/"><img src="./imagens_git/Jupyter.svg" width="15%" height="15%"/></a>
+ <a href="https://aws.amazon.com/pt/quicksight/"><img src="./imagens_git/aws-quicksight-seeklogo.com.svg" width="8%" height="8%"/></a>
+</p>
+
+<p align="center">    
+ <a href="https://www.python.org/"><img src="./imagens_git/Python.svg" width="8%" height="8%"/></a>
+ <a href="https://jupyter.org/"><img src="./imagens_git/Jupyter.svg" width="15%" height="15%"/></a>
+ <a href="https://aws.amazon.com/pt/quicksight/"><img src="./imagens_git/aws-quicksight-seeklogo.com.svg" width="8%" height="8%"/></a>
+</p>
+
+<p align="right">(<a href="#top">voltar ao topo</a>)</p>
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
