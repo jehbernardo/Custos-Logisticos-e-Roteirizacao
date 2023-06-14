@@ -114,11 +114,20 @@ Com as modelagens pertinentes encontramos e comparamos os parâmetros globais pl
 
 ### COG para Modelagem do Centro de Distribuição
  
+ Utilizando as latitudes e longitudes dos clientes e fábricas da base, podemos verificar que eles se agrupam, visualmente, em 7 grandes aglomerados de pontos, por meio de uma biblioteca em Python de clusterização (KMeans) que utiliza _Machine Learning_, foi encontardo 7 clusters no centróide de cada aglomerado.
+ 
+ Utilizando estes 7 clusters, em conjunto com a soma das demandas anuais de cada cliente incluídos nestes clusters, utilizamos a teoria do COG, presente nos livros escritos por _Ballou, Ronald H_ para encontrar a localização de um Centro de Distribuição para estas rotas.
  
  <div id="top"></div>
 <p align="center">
       <img src="./imagens_git/cog1.JPG" width="100%" height="100%">
 <p align="center">
+ 
+ Para encontrar os parâmetros globais deste novo cenário e comparar com o que a empresa planejou, havia a necessidade de encontrar a quilometragem e o tempo de duração destas novas rotas que iriam das fábricas para o centro de distribuição e do centro de distribuição para os clientes.
+ 
+ Utilizando Python novamente como nossa ferramenta principal, modelamos um código que utiliza a API do Google para calcular a distância entre dois pontos e a duração de uma viagem entre eles.
+ 
+ Porém para completar os parâmetros ainda havia a necessidade de calcular o valor do frete de cada nova rota.
  
  <div id="top"></div>
 <p align="center">
@@ -126,15 +135,23 @@ Com as modelagens pertinentes encontramos e comparamos os parâmetros globais pl
 <p align="center">
   <div id="top"></div>
   
+  Para o cálculo do valor do frete, analisamos a correlação de campos que poderiam ter influência neste valor, para então escolher um modelo que supriria as necessidades do próximo passo.
+  
 <p align="center">
       <img src="./imagens_git/cog3.JPG" width="100%" height="100%">
 <p align="center">
   <div id="top"></div>
   
+  Nosso próximo passo foi então, com base nos dados históricos (base real), modelar uma regressão linear que utiliza um modelo de _Machine Learnig_ supervisionado, para então prever qual seria o valor de cada rota, levando em conta não só distância, mas também como estes valores se comportavam dentro da base anual.
+  
+  Obtivemos então a base de nosso cenário sugerido com quilometragem de cada rota fabrica-CD e CD-cliente, assim como o valor de frete de cada uma.
+  
 <p align="center">
       <img src="./imagens_git/cog4.JPG" width="100%" height="100%">
 <p align="center">
   <div id="top"></div>
+  
+ Analisando logísticamente o cenário sugerido, fizemos então a modelagem da quantidade de rotas entre a fábrica e o centro de distribuição, para tornar este cenário o mais otimizado possível e assim termos os números reais para base de comparação dos parâmetros globais do planejado pela empresa e do realizado pela base de dados do cliente.
   
 <p align="center">
       <img src="./imagens_git/cog5.JPG" width="100%" height="100%">
@@ -161,9 +178,10 @@ Com as modelagens pertinentes encontramos e comparamos os parâmetros globais pl
 </p>
 
 <p align="center">    
- <a href="https://www.python.org/"><img src="./imagens_git/Python.svg" width="8%" height="8%"/></a>
- <a href="https://jupyter.org/"><img src="./imagens_git/Jupyter.svg" width="15%" height="15%"/></a>
- <a href="https://aws.amazon.com/pt/quicksight/"><img src="./imagens_git/aws-quicksight-seeklogo.com.svg" width="8%" height="8%"/></a>
+ <a href="https://powerbi.microsoft.com/pt-br/"><img src="./imagens_git/Microsoft Power BI.svg" width="20%" height="20%"/></a>
+ <a href="https://posit.co/download/rstudio-desktop/"><img src="./imagens_git/RStudio.svg" width="15%" height="15%"/></a>
+ <a href="https://meet.google.com/"><img src="./imagens_git/google-meet-seeklogo.com.svg" width="10%" height="10%"/></a>
+  <a href="https://www.whatsapp.com/?lang=pt_br"><img src="./imagens_git/WhatsApp.jpg" width="10%" height="10%"/></a>
 </p>
 
 <p align="right">(<a href="#top">voltar ao topo</a>)</p>
