@@ -31,7 +31,7 @@ A **GETLOG** tem como missão realizar consultorias de maneira eficiente e ágil
 | -------------------------------------------- | ---------------- | ---------------- 
 | <img src = "./imagens_git/jessica.jpeg" width="50" >|__Jessica Tinoco Bernardo__  | *Scrum Master*  
 | <img src = "./imagens_git/giovani.png" width="60" >|__Giovani Lavinas Ramos__| *Product Owner* 
-| <img src = "./imagens_git/andre.jpeg" width="60" >|__André Donizetti__  | *Developer Team*  
+| <img src = "./imagens_git/andre.jfif" width="60" >|__André Donizetti__  | *Developer Team*  
 | <img src = "./imagens_git/larissa.png" width="60" >|__Larissa Aparecida Claro__  | *Developer Team* 
 | <img src = "./imagens_git/manu.png" width="60" >|__Emanuelle Aparecida G. da Silva__ | *Developer Team* 
  
@@ -66,5 +66,38 @@ _Sprint 02 - 06/04/23 à 23/04/2023_
 
 _Sprint 03 - 24/04/23 à 07/06/2023_
 
+> SPRINT 01
 
+Foi disponibilizado uma tabela com informações de rotas, fábricas e clientes. Através de programação em Python, cruzamos as três bases em uma, os dados foram analisados e apresentados ao cliente com o intuito de alinhar as expectativas.
+
+<div id="top"></div>
+<p align="center">
+      <img src="./imagens_git/sprint1.jpeg" width="80%" height="40%">
+<p align="center">
+
+> SPRINT 02
+ 
+Com uma nova base de dados disponibilizada pelo cliente foram aplicadas regras de negócios nas bases e construído um dashboard para visualizar o resumo dos dados, bem como informações mais detalhadas.
+ 
+Foi incluído as rotas dados de distância e tempo e calculado incicadores de custo/km e custo/tempo. 
+ 
+ <div id="top"></div>
+<p align="center">
+      <img src="./imagens_git/sprint2.jpeg" width="80%" height="40%">
+<p align="center">
+ 
+> SPRINT 03
+ 
+Foi disponibilizado uma tabela de parâmetros da empresa com custo/unidade e custo/km planejado.
+ 
+Com uma nova base, calculamos os parâmetros da base real para comparação com os parâmetros planejados, incluímos uma sugestão de novo cenário de rotas com adição de um centro de distribuição entre as rotas, com estas novas rotas sugeridas, calculamos os parâmetros
+para comparação com o planejado e o realizado.
+Incluímos também, através do DEA, uma análise da eficiência das rotas de venda da base realizada e das rotas de venda da base sugerida.
+ 
+ <div id="top"></div>
+<p align="center">
+      <img src="./imagens_git/sprint3.jpeg" width="80%" height="40%">
+<p align="center">
+ 
+<p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
