@@ -18,11 +18,9 @@ O objetivo geral foi o desenvolvimento de uma interface gráfica que permita ao 
 
 ## A Empresa
 
-> Logo
-
 <div id="top"></div>
 <p align="center">
-      <img src="./imagens_git/logofastlog.jpg" width="30%" height="30%">
+      <img src="./imagens_git/logogetlog.png" width="100%" height="100%">
 <p align="center">
   
 A **GETLOG** tem como missão realizar consultorias de maneira eficiente e ágil, proporcionando melhorias aos nossos clientes e auxiliando-os por meio da entrega de produtos eficientes e eficazes para a resolução de seus problemas.
@@ -31,15 +29,17 @@ A **GETLOG** tem como missão realizar consultorias de maneira eficiente e ágil
   
 | Avatar            							| Aluno         | Função           		
 | -------------------------------------------- | ---------------- | ---------------- 
-| <img src = "./imagens_git/jessica.jpeg" width="60" >|__Jessica Tinoco Bernardo__  | *Scrum Master*  
-| <img src = "./imagens_git/jessica.jpeg" width="50" >|__Giovani Lavinas__| *Product Owner* 
-| <img src = "./imagens_git/igor.jpeg" width="60" >|__Larissa Claro__  | *Developer Team*  
-| <img src = "./imagens_git/luan.jpeg" width="60" >|__Luan Silva Costa__  | *Developer Team* 
-| <img src = "./imagens_git/luiz.jpeg" width="60" >|__Luis Guilherme B. de Almeida__ | *Developer Team* 
+| <img src = "./imagens_git/jessica.jpeg" width="50" >|__Jessica Tinoco Bernardo__  | *Scrum Master*  
+| <img src = "./imagens_git/giovani.png" width="60" >|__Giovani Lavinas Ramos__| *Product Owner* 
+| <img src = "./imagens_git/andre.jpeg" width="60" >|__André Donizetti__  | *Developer Team*  
+| <img src = "./imagens_git/larissa.png" width="60" >|__Larissa Aparecida Claro__  | *Developer Team* 
+| <img src = "./imagens_git/manu.png" width="60" >|__Emanuelle Aparecida G. da Silva__ | *Developer Team* 
+ 
+ <p align="right">(<a href="#top">voltar ao topo</a>)</p>
   
 ## Objetivo
 
-A demanda do cliente consiste em entender e avaliar da melhor forma possível a distribuião e os custos das rotas dentro de uma base de dados com uma origem e um destino de entrega de produtos.
+A demanda do cliente consiste em entender e avaliar da melhor forma possível a distribuição e os custos das rotas dentro de uma base de dados com uma origem e um destino de entrega de produtos.
 
 Assim, tem-se por objetivo específico:
 
@@ -57,4 +57,14 @@ A equipe da GetLog além de desenvolver uma interface gráfica que permita o cli
 ## Organização e Metodologia
   
 Este projeto foi realizado conforme a metodologia ágil, utilizando o software Jira para a organização e acompanhamento das tarefas de cada membro da equipe; durante cada sprint, uma série de atividades eram designadas, com data de início e data limite, possibilitando a análise do tempo gasto em cada uma delas, e, do desempenho dos integrantes.
+
+> Cronograma
+
+_Sprint 01 - 19/03/23 à 05/04/2023_
+
+_Sprint 02 - 06/04/23 à 23/04/2023_
+
+_Sprint 03 - 24/04/23 à 07/06/2023_
+
+
 
